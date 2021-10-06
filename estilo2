@@ -1,101 +1,236 @@
-ESTILO 1
-
-  table, td, th {
-      border: 1px solid #ddd;
-      text-align: left;
-  }
-  table {
-      border-collapse: collapse;
-      width: 100%;
-  }
-  th,td {
-      padding: 15px;
-
-  }
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
 
 
+<body>
 
-
-ESTILO 2
-table {
+<style>
+table, th, td {
+  border: 1px solid grey;
   border-collapse: collapse;
-  width: 100%;
+
+
 }
-th,td {
-  padding: 8px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
-}
+</style>
+
+<h3 style="text-align:center;">EJERCICIO TABLAS</h3>
+<br>
+<!--Tabla1-->
+
+  <h1 style="text-align: center;">Tabla 1</h1>
+    <table class= "table">
+      <style>
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        th,td {
+          text-align: left;
+          padding: 8px;
+        }
+        tr:nth-child(even){background-color: #f2f2f2}
+
+        th{
+          background-color: #04AA6D;
+          color:white;
+        }
+        </style>
+
+      <tr>
+          <td>Celda</td>
+          <td colspan="4">Celda</td>
+          <td>Celda</td>
+      </tr>
+      <tr>
+          <td rowspan="4">Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td rowspan= "4">Celda</td>
+      <tr>
+          <td>Celda</td>
+          <td>Celda</td>
+          <td>Celda</td>
+          <td>Celda</td>
+      </tr>
+      <br>
+      <tr>
+          <td>Celda</td>
+          <td>Celda</td>
+          <td>Celda</td>
+          <td>Celda</td>
+      </tr>
+      <tr>
+          <td>Celda</td>
+          <td>Celda</td>
+          <td>Celda</td>
+          <td>Celda</td>
+      </tr>
+      <tr>
+          <td rowspan="3">Celda</td>
+          <td>Celda</td>
+          <td>Celda</td>
+          <td>Celda</td>
+          <td rowspan="3"></td>
+          <td rowspan="3">Celda</td>
+      </tr>
+      <tr>
+          <td>Celda</td>
+          <td>Celda</td>
+          <td>Celda</td>
+      </tr>
+      <tr>
+          <td>Celda</td>
+          <td>Celda</td>
+          <td>Celda</td>
+      </tr>
+    </table>
+    <br>
+
+      <!--Tabla2-->
+
+    <h1 style="text-align: center;">Tabla 2</h1>
+      <table class="table">
+        <tr>
+          <td>Celda</td>
+          <td colspan="2">Celda</td>
+          <td>Celda</td>
+          <td>Celda</td>
+      </tr>
+      <tr>
+          <td>Celda</td>
+          <td colspan="2">Celda</td>
+          <td>Celda</td>
+          <td>Celda</td>
+      </tr>
+      <tr>
+          <td>Celda</td>
+          <td colspan="2">Celda</td>
+          <td>Celda</td>
+          <td>Celda</td>
+      </tr>
+      <tr>
+          <td rowspan="3">Celda</td>
+          <td>Celda</td>
+          <td>Celda</td>
+          <td rowspan="3">Celda</td>
+          <td rowspan="3">Celda</td>
+        <tr>
+          <td>Celda</td>
+          <td>Celda</td>
+        </tr>
+        <tr>
+          <td rowspan="3">Celda</td>
+          <td rowspan="3">Celda</td>
+        </tr>
+    </table>
+
+    <!--Tabla3-->
+
+    <h1 style="text-align: center;">Tabla 3</h1>
+      <table class="table">
+      <tr>
+      <td colspan="4">alfa</td>
+      <td>bravo</td>
+      <td rowspan="2">charlie</td>
+        </tr>
+        <tr>
+          <td>delta</td>
+          <td colspan="2">echo</td>
+          <td>foxtrot</td>
+          <td>golf</td>
+        </tr>
+        <tr>
+          <td>hotel</td>
+          <td colspan="4" rowspan="2">india</td>
+          <td>juliet</td>
+        </tr>
+        <tr>
+          <td>kilo</td>
+          <td>lima</td>
+        </tr>
+        <tr>
+          <td>mike</td>
+          <td colspan="2">november</td>
+          <td>oscar</td>
+          <td>papa</td>
+          <td>quebec</td>
+        </tr>
+          </table>
+
+  <!--Tabla4-->
+
+  <h1 style="text-align: center;">Tabla 4</h1>
+    <table>
+      <tr>
+        <th>Level 1</th>
+        <th>Level 2</th>
+        <th>Level 3</th>
+        <th>Info</th>
+        <th>Name</th>
+      </tr>
+      <tr>
+        <td rowspan="6">System</td>
+        <td rowspan="4">System Apps</td>
+        <td rowspan="3">SystemEnv</td>
+        <td>App Test</td>
+        <td>foo</td>
+      </tr>
+      <tr>
+        <td>App Memory</td>
+        <td>Foo</td>
+      </tr>
+      <tr>
+        <td>App Test</td>
+        <td>Bar</td>
+      </tr>
+      <tr>
+        <td>SystemEnv2</td>
+        <td>App Test</td>
+        <td>Bar</td>
+      </tr>
+        <td rowspan="2">System Memory</td>
+        <td rowspan="2">Memory Test</td>
+        <td>Memory Func</td>
+        <td>Foo</td>
+      <tr>
+        <td>App Test</td>
+        <td>Foo</td>
+      </tr>
+      </table>
+
+      <!--Tabla5-->
 
 
+    <h1 style="text-align: center;">Tabla 5</h1>
+      <table style="text-align: center"
+        <tr>
+            <td colspan="4">Curso 2019/2010</td>
+      </tr>
+      <tr>
+          <td colspan="2">1ºESO- A</td>
+          <td colspan="2">1ºESO-A</td>
+      </tr>
 
-ESTILO 3
+      <tr>
+        <td>Aprobados</td>
+        <td>Suspensos</td>
+        <td>Aprobados</td>
+        <td>Suspensos</td>
+      </tr>
 
+      <tr>
+        <td>68%</td>
+        <td>57%</td>
+        <td>32%</td>
+        <td>43%</td>
+      </tr>
 
+    </table>
 
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  th,td {
-    text-align: left;
-    padding: 8px;
-  }
-  tr:hover{background-color: yellow; }
+    </body>
 
-ESTILO 4
-
-    table {
-      border-collapse: collapse;
-      width: 100%
-    }
-    th, td {
-      text-align: left;
-      padding: 8px;
-    }
-    tr:nth-child(even) {background-color: #f2f2f2;}
-
-
-
-ESTILO 5
-
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  th,td {
-    text-align: left;
-    padding: 8px;
-  }
-  tr:nth-child(even){background-color: #f2f2f2}
-
-  th{
-    background-color: #04AA6D;
-    color:white;
-  }
-
-
-MAS ESTILOS
-1.
-
-
-  table{
-    width: 100%;
-  }
-  th{
-    height: 70px;
-  }
-
-
-2.
-
-    table{
-      width: 50%;
-    }
-
-
-  3.
-
-  table, th, td {
-    border:1px solid black;
-  }
+</html>
