@@ -1,0 +1,149 @@
+
+
+.primario{
+    border: 2px solid lightsteelblue;
+    position: relative;
+    background:lightsteelblue; 
+    height: 100px;
+    width: 100px;
+
+
+}
+
+.secundario{
+    border: 2px solid lightgreen;
+    position: relative;
+    background: lightgreen; 
+    height: 100px;
+    width: 100px;
+
+
+}
+
+.tercer{
+    border: 2px solid lightsteelblue;
+    float: left;
+    background:lightsteelblue;  
+    height: 100px;
+    width: 100px;
+}
+
+
+.cuarto{
+    border: 2px solid lightgreen;
+    float: left;
+    background: lightgreen;
+    height: 100px;
+    width: 100px;
+
+}
+
+.quinto{
+    border: 2px solid lightsteelblue;
+    float: left;
+    background: lightsteelblue;
+    height: 100px;
+    width: 100px;
+
+
+}
+
+
+.sexto{
+    border: 2px solid lightgreen;
+    float: right;
+    background: lightgreen;
+    height: 100px;
+    width: 100px;
+
+
+}
+
+.septimo{
+    border: 2px solid lightsteelblue;
+    float: right;
+    background: lightsteelblue;
+    height: 100px;
+    width: 100px;
+
+}
+
+.octavo{
+    border: 2px solid lightgreen;
+    float: right;
+    background: lightgreen;
+    height: 100px;
+    width: 100px;
+
+}
+
+.noveno{
+    border: 2px solid lightpink;
+    float: left;
+    background: lightpink;
+    height: 100px;
+    width: 100px;
+
+}
+
+.diez{
+    border: 2px solid lightsteelblue;
+    float: right;
+    background: lightsteelblue;
+    height: 100px;
+    width: 100px;
+
+}
+
+.once{
+    border: 2px solid lightgreen;
+    float: right;
+    background: lightgreen;
+    height: 100px;
+    width: 100px;
+}
+
+.doce{
+    border: 2px solid lightpink;
+    background: lightpink;
+    height: 100px;
+    width: 100px;
+
+
+}
+.trece{
+    border: 2px solid lightgrey;
+    position: absolute;
+    background: lightgrey;
+    height: 100px;
+    width: 200px;
+}
+
+.catorce{
+    border: 2px solid lightgoldenrodyellow;
+    position: absolute;
+    background: lightgoldenrodyellow;
+    height: 100px;
+    width: 200px;
+    bottom:-723px ;
+    left: 50px;
+
+}
+.quince{
+    border: 2px solid lightgrey;
+    position: absolute;
+    background: lightgrey;
+    height: 100px;
+    width: 200px;
+    z-index:1;
+}
+
+.dieciseis{
+    border: 2px solid lightgoldenrodyellow;
+    position: absolute;
+    background: lightgoldenrodyellow;
+    height: 100px;
+    width: 200px;
+    bottom:-900px ;
+    left: 50px;
+}
